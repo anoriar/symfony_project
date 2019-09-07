@@ -28,7 +28,7 @@ class BlogController extends AbstractController
     {
         $generatedUrl = $this->generateUrl('blog_show', ['slug' => 'test']);
 
-        return $this->render('lucky/number.html.twig', [
+        return $this->render('blog/show.html.twig', [
             'number' => $page
         ]);
     }

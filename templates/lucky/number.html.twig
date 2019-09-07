@@ -4,4 +4,7 @@
     <h1>Your lucky number is {{ number }}</h1>
     <a href="{{ path('blog_show', {slug: 'test'}) }}"></a>
     <a href="{{ url('blog_show', {slug: 'test'}) }}"></a>
+    {% for i in 1..10 %}
+        {{ cycle(['even', 'odd'], i) }}
+    {% endfor %}
 {% endblock %}
