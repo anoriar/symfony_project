@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Acme\BlogBundle\Controller;
+namespace Acme\BlogBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;

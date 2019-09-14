@@ -1,5 +1,5 @@
 <?php
-namespace App\Acme\BlogBundle;
+namespace Acme\BlogBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

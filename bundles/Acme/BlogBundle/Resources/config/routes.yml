@@ -1,0 +1,5 @@
+acme_blog.new_blog.list:
+  path: '/new_blog/list'
+  controller: Acme\BlogBundle\Controller\BundleTestController:list
+  options:
+    expose: true
